@@ -39,26 +39,67 @@ header h2 {
     color: var(--grey-500);
 }
 header p:nth-child(3){
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 0.8rem;
+    font-weight: 400;
     color: var(--grey-400);
-    padding: 1rem 30vw;
-}
-.card p{
-    font-size: 1rem;
-    color: var(--grey-400);
-    font-weight: 300;
-}
-.card h3{
-    font-size: 1.3rem;
-    color: var(--grey-500);
-    font-weight: 600;
+    padding: 1rem 33vw;
 }
 section{
     padding: 0 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2.3rem;
     margin-top: 2rem;
 }
+.card p{
+    font-size: 0.8rem;
+    color: var(--grey-400);
+    font-weight: 300;
+    margin: 0.5rem 0 1rem;
+}
+.card h3{
+    font-size: 1.1rem;
+    color: var(--grey-500);
+    font-weight: 600;
+}
+
+section  .card{
+    padding: 1.2rem 2rem;
+    height: 200px;
+    width: 300px;
+    /* box-shadow: -1px 9px 32px -6px rgba(0,0,0,0.75); */
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.card img{
+    width: 50px;
+    float: right;
+}
+
+.four{
+    border-top: 5px solid var(--blue);
+    border-radius: 0.4rem;
+}
+.two{
+    border-top: 5px solid var(--red);
+    border-radius: 0.4rem;
+}
+.three{
+    border-top: 5px solid var(--orange);
+    border-radius: 0.4rem;
+}
+.one{
+    border-top: 5px solid var(--cyan);
+    border-radius: 0.4rem;
+}
+
+
+
+
+
